@@ -127,6 +127,33 @@ body {
 
 .lista__item {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 700px;
     color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 145px 0 100px 0;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 2em 10em;
+    font-size: 16px;
+}
+
+.lista__link a {
+    font-size: 16px;
+    margin-left: 16px;
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    margin-left: 16px;
+    color: var(--cinza-secundario);
+    margin: 16px ;
 }
