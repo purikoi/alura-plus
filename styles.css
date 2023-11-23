@@ -61,6 +61,7 @@ body {
 
 
 .container__titulo {
+    width: 588px;
     font-size: 28px;
     font-weight: 700;
 }
@@ -92,5 +93,16 @@ body {
 }
 
 .descricao__texto {
+    width: 588px;
     color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.container__descricao {
+    padding: 70px;
+
 }
